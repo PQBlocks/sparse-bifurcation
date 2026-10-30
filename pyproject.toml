@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pqblocks-sparse-bifurcation"
+version = "0.1.0"
+description = "Sparse Discrete Simulated Bifurcation (dSB) heuristic solver for large-scale Ising and QUBO combinatorial optimization."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.11"
+authors = [{name = "The PQBlocks Authors"}]
+keywords = ["qubo", "ising", "bifurcation", "simulated-bifurcation", "sparse", "optimization", "quantum-inspired"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = ["numba>=0.58", "numpy>=1.22", "scipy>=1.9"]
+
+[project.optional-dependencies]
+test = ["pytest", "hypothesis"]
+
+[project.scripts]
+pqblocks-sparse-bifurcation = "pqblocks_sparse_bifurcation.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/PQBlocks/sparse-bifurcation"
+Documentation = "https://github.com/PQBlocks/sparse-bifurcation#readme"
+Source = "https://github.com/PQBlocks/sparse-bifurcation"
+Changelog = "https://github.com/PQBlocks/sparse-bifurcation/blob/main/CHANGELOG.md"
+Issues = "https://github.com/PQBlocks/sparse-bifurcation/issues"
+Security = "https://github.com/PQBlocks/sparse-bifurcation/security/policy"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.txt", "*.csv", "*.yaml", "*.yml", "*.toml", "py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,37 @@
+{
+  "golden_01": {
+    "seed": 42,
+    "input_sha256": "ae74f9bed7f6c1194d1d956ca4e843f5a9367ffa615468f8257a55014500c941",
+    "spin_sha256": "fe0012116171e7bba0f3b40e7d6d605364e8746d6eb86aac6f4567ca4db31f55",
+    "energy": -6.0,
+    "execution_mode": "dense"
+  },
+  "golden_02": {
+    "seed": 42,
+    "input_sha256": "edd56b3704327d3106ae2dc37b2363d606b6175b859be3a7afae3105791fbe85",
+    "spin_sha256": "caee94b0661feb0eeba174db95d121b07eee00d1131e5eee243e56c53479b6a9",
+    "energy": -10.0,
+    "execution_mode": "dense"
+  },
+  "golden_03": {
+    "seed": 42,
+    "input_sha256": "81d30dd0a0e5fde00ee4897b1a24125068d41c7f43cc10d6b971ed7aac547f73",
+    "spin_sha256": "0eb1541026e69681d66aaaf929f1d5e6fdb6f8d67dfbfc648cc080d5b5a7f88e",
+    "energy": -58.0,
+    "execution_mode": "dense"
+  },
+  "golden_04": {
+    "seed": 42,
+    "input_sha256": "39f3e21ee26ffb339ed77f5d27615c3f604fbd88beb38366e85cc22bde2c3764",
+    "spin_sha256": "9445c851ded970dd57b7eb42764d794a4b1cf481d7ab1aec548223a99c213d88",
+    "energy": -112.0,
+    "execution_mode": "dense"
+  },
+  "golden_05": {
+    "seed": 42,
+    "input_sha256": "fdf3bd5520852ee4fb968ee7018dffa3f9032a4a4d22c50d3b53116663fe2f39",
+    "spin_sha256": "315cdbfc4c7d5158a3a8a14784b363117cb887e6ad0e631c3c32774bb9f2710f",
+    "energy": -106.0,
+    "execution_mode": "csr"
+  }
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "pqblocks-sparse-bifurcation"
+version: "0.1.0"
+license: Apache-2.0
+repository-code: "https://github.com/PQBlocks/sparse-bifurcation"
+authors:
+  - name: "The PQBlocks Authors"
+keywords:
+  - qubo
+  - ising
+  - bifurcation
+  - simulated-bifurcation
+  - sparse
+  - optimization
+  - quantum-inspired
+abstract: "Sparse Discrete Simulated Bifurcation (dSB) heuristic solver for large-scale Ising and QUBO combinatorial optimization."
