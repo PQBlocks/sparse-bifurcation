@@ -23,7 +23,7 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
 ]
-dependencies = ["numba>=0.58", "numpy>=1.22", "scipy>=1.9"]
+dependencies = ["dimod>=0.12", "networkx>=2.8", "numba>=0.58", "numpy>=1.22", "scipy>=1.9"]
 
 [project.optional-dependencies]
 test = ["pytest", "hypothesis"]
