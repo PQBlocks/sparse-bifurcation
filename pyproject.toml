@@ -11,11 +11,11 @@ license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
 requires-python = ">=3.11"
 authors = [
-    {name = "Govind Dubey", email = "govinddubeycse@gmail.com"},
+    {name = "Govind Dubey", email = "govinddubeycse+pqblocks@gmail.com"},
     {name = "The PQBlocks Authors", email = "dev@pqblocks.org"}
 ]
 maintainers = [
-    {name = "Govind Dubey", email = "govinddubeycse@gmail.com"}
+    {name = "Govind Dubey", email = "govinddubeycse+pqblocks@gmail.com"}
 ]
 keywords = ["qubo", "ising", "bifurcation", "simulated-bifurcation", "sparse", "optimization", "quantum-inspired"]
 classifiers = [

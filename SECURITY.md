@@ -6,7 +6,7 @@ Please report security issues **privately** through GitHub's private vulnerabili
 https://github.com/PQBlocks/sparse-bifurcation/security/advisories/new
 
 You can also open an issue on GitHub or contact the author directly:
-**Govind Dubey** (`govinddubeycse@gmail.com`).
+**Govind Dubey** (`govinddubeycse+pqblocks@gmail.com`).
 
 Do not open a public issue containing exploit details. We aim to acknowledge reports within 48 hours,
 agree a fix and disclosure timeline with the reporter (normally within 30 to 90 days), and credit the reporter
